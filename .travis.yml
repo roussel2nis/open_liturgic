@@ -28,8 +28,8 @@ virtualenv:
   system_site_packages: true
 
 install:
-  - git clone https://github.com/roussel2nis/open_liturgic.git ${HOME}/open_liturgic
-  - export PATH=${HOME}/open_liturgic/travis:${PATH}
+  - git clone https://github.com/roussel2nis/open_liturgic.git ${HOME}/maintainer-quality-tools
+  - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
   - travis_install_nightly
 
 script:
