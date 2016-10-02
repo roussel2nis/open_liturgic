@@ -1,1 +1,1 @@
-from liturgic_library import library
+from . import library
