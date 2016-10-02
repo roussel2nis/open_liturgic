@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+		<record model="calendar.event.type" id="categ_celebration">
+            <field name="name">Celebration</field>
+            <field name="is_liturgic">True</field>
+        </record>
+    </data>
+</openerp>
